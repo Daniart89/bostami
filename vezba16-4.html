@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bostami</title>
+    <script src="https://kit.fontawesome.com/59b3069fbf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vezba16-4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="logo">
+        </div>
+        <div class="button">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class=" text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </div>
+    </header>
+    <div class="container">
+        <div class="item-1">
+            <div class="image">
+                <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831116/1_j5nzre.jpg?_s=public-apps" alt="photo f a girl">
+            </div>
+            <h1 class="name">Monalisa Ashley</h1>
+            <h3 class="proffesion">Ui/Ux Designer</h3>
+            <div class="icons">
+                <div class="i fb">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                </div>
+                <div class="i tw">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+                </div>
+                <div class="i dr">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M86.6 64l85.2 85.2C194.5 121.7 208 86.4 208 48c0-14.7-2-28.9-5.7-42.4C158.6 15 119 35.5 86.6 64zM64 86.6C35.5 119 15 158.6 5.6 202.3C19.1 206 33.3 208 48 208c38.4 0 73.7-13.5 101.3-36.1L64 86.6zM256 0c-7.3 0-14.6 .3-21.8 .9C238 16 240 31.8 240 48c0 47.3-17.1 90.5-45.4 124L256 233.4 425.4 64C380.2 24.2 320.9 0 256 0zM48 240c-16.2 0-32-2-47.1-5.8C.3 241.4 0 248.7 0 256c0 64.9 24.2 124.2 64 169.4L233.4 256 172 194.6C138.5 222.9 95.3 240 48 240zm463.1 37.8c.6-7.2 .9-14.5 .9-21.8c0-64.9-24.2-124.2-64-169.4L278.6 256 340 317.4c33.4-28.3 76.7-45.4 124-45.4c16.2 0 32 2 47.1 5.8zm-4.7 31.9C492.9 306 478.7 304 464 304c-38.4 0-73.7 13.5-101.3 36.1L448 425.4c28.5-32.3 49.1-71.9 58.4-115.7zM340.1 362.7C317.5 390.3 304 425.6 304 464c0 14.7 2 28.9 5.7 42.4C353.4 497 393 476.5 425.4 448l-85.2-85.2zM317.4 340L256 278.6 86.6 448c45.1 39.8 104.4 64 169.4 64c7.3 0 14.6-.3 21.8-.9C274 496 272 480.2 272 464c0-47.3 17.1-90.5 45.4-124z"/></svg>
+                </div>
+                <div class="i in">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+                </div>
+            </div>
+            <div class="sub-container">
+                <div class="item-c one">
+                    <div class="phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z"/></svg>
+                    </div>
+                    <div class="contact">
+                        <p class="name1">Phone</p>
+                        <p class="number">+123 456 7890</p>                     
+                   </div>                   
+                </div>
+                <div class="item-c">
+                    <div class="email">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.4 96L144 96l-36.2 0L96 96l0 8.8L96 144l0 40.4 0 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3 48 96c0-26.5 21.5-48 48-48l76.6 0 49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48 416 48c26.5 0 48 21.5 48 48l0 44.3 22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4l0-89 0-40.4 0-39.2 0-8.8-11.8 0L368 96l-71.4 0-81.3 0zM0 448L0 242.1 217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1 512 448s0 0 0 0c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0zM176 160l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+                    </div>
+                    <div class="contact">
+                        <p class="name1">Email</p>
+                        <p class="number">example@mail.com</p>                        
+                    </div>                   
+                </div>
+                <div class="item-c">
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    </div>
+                    <div class="contact">
+                        <p class="name1">Location</p>
+                        <p class="number">Hong kong china</p> 
+                    </div>                                         
+                </div>
+                <div class="item-c none ">
+                    <div class="birthday">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 0c17.7 0 32 14.3 32 32l0 32 128 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 48 0c26.5 0 48 21.5 48 48l0 48L0 160l0-48C0 85.5 21.5 64 48 64l48 0 0-32c0-17.7 14.3-32 32-32zM0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zm64 80l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm128 0l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM64 400l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm112 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z"/></svg>
+                    </div>
+                    <div class="contact">
+                        <p class="name1">Birthday</p>
+                        <p class="number">May 27, 1990</p>           
+                    </div>                 
+                </div>
+            </div>
+            <div class="button1">
+                <div class="download">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+                </div>
+                <h1 class="d">Download CV</h1>
+            </div>
+        </div>
+        <div class="item-2">
+            <div class="icon1 active">
+                <div class="icon-1">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                </div>
+                <p class="t1">About</p>
+            </div>
+            <div class="icon1 active2">
+                <div class="icon-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z"/></svg>                
+                </div>
+                <p class="t2">Resume</p>
+            </div>
+            <div class="icon1 active3">
+                <div class="icon-3">
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>                
+                </div>
+                <p class="t3">Works</p>
+            </div>
+            <div class="icon1 active4">
+                <div class="icon-4">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M162.4 196c4.8-4.9 6.2-5.1 36.4-5.1 27.2 0 28.1.1 32.1 2.1 5.8 2.9 8.3 7 8.3 13.6 0 5.9-2.4 10-7.6 13.4-2.8 1.8-4.5 1.9-31.1 2.1-16.4.1-29.5-.2-31.5-.8-10.3-2.9-14.1-17.7-6.6-25.3zm61.4 94.5c-53.9 0-55.8.2-60.2 4.1-3.5 3.1-5.7 9.4-5.1 13.9.7 4.7 4.8 10.1 9.2 12 2.2 1 14.1 1.7 56.3 1.2l47.9-.6 9.2-1.5c9-5.1 10.5-17.4 3.1-24.4-5.3-4.7-5-4.7-60.4-4.7zm223.4 130.1c-3.5 28.4-23 50.4-51.1 57.5-7.2 1.8-9.7 1.9-172.9 1.8-157.8 0-165.9-.1-172-1.8-8.4-2.2-15.6-5.5-22.3-10-5.6-3.8-13.9-11.8-17-16.4-3.8-5.6-8.2-15.3-10-22C.1 423 0 420.3 0 256.3 0 93.2 0 89.7 1.8 82.6 8.1 57.9 27.7 39 53 33.4c7.3-1.6 332.1-1.9 340-.3 21.2 4.3 37.9 17.1 47.6 36.4 7.7 15.3 7-1.5 7.3 180.6.2 115.8 0 164.5-.7 170.5zm-85.4-185.2c-1.1-5-4.2-9.6-7.7-11.5-1.1-.6-8-1.3-15.5-1.7-12.4-.6-13.8-.8-17.8-3.1-6.2-3.6-7.9-7.6-8-18.3 0-20.4-8.5-39.4-25.3-56.5-12-12.2-25.3-20.5-40.6-25.1-3.6-1.1-11.8-1.5-39.2-1.8-42.9-.5-52.5.4-67.1 6.2-27 10.7-46.3 33.4-53.4 62.4-1.3 5.4-1.6 14.2-1.9 64.3-.4 62.8 0 72.1 4 84.5 9.7 30.7 37.1 53.4 64.6 58.4 9.2 1.7 122.2 2.1 133.7.5 20.1-2.7 35.9-10.8 50.7-25.9 10.7-10.9 17.4-22.8 21.8-38.5 3.2-10.9 2.9-88.4 1.7-93.9z"></path></svg>                
+                </div>
+                <p class="t4">Blogs</p>
+            </div>
+            <div class="icon1">
+                <div class="icon-5">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 2h16.005C20.107 2 21 2.898 21 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H3V2zm4 2H5v16h2V4zm2 16h10V4H9v16zm2-4a3 3 0 0 1 6 0h-6zm3-4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm8-6h2v4h-2V6zm0 6h2v4h-2v-4z"></path></g></svg>                
+                </div>
+                <p class="t5">Contact</p>
+            </div>
+        </div>
+        <div class="item-3">
+            <div class="text-main">
+                <div class="title-about">About Me</div>
+                <p class="text-about">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+                <p class="text-about2">My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+            </div>
+            <div class="grid-section">
+                <div class="title-grid-container">
+                    <div class="title-grid-1">What I do!</div>
+                </div>
+                <div class="grid-item-1">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-1.71b741a6ab73765534e80db0a934febd.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>Ui/Ux Design</p>
+                        <p class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    </div>
+
+                </div>
+                <div class="grid-item-2">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-2.cbff424c7b23532c3f955e6f747ee1fa.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>App Development</p>                   
+                        <p class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    </div>
+                </div>
+                <div class="grid-item-3">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-3.c226edafbaa53ebea0decda25185b879.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>Photography</p>
+                        <p class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    </div>
+                </div>
+                <div class="grid-item-4">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-4.6989ae67f415633aa2e1e3fd2e3c15a1.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>Photography</p>
+                        <p class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    </div>
+                </div>
+                <div class="grid-item-5">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-5.b7ce008f06241f1d51b48260af8b73f4.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>Managment</p>
+                        <div class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</div>
+                    </div>
+                </div>
+                <div class="grid-item-6">
+                    <div class="ti title-a">
+                        <img src="https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg" alt="">
+                    </div>
+                    <div class="ti text-a2">
+                        <p>Web Development</p>
+                        <p class="t text-a">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clients">
+                <div title="title-clients">
+                    <div class="title-clients-1">Clients</div>
+                </div>
+                <div class="client">
+                    <div class="client jedan">
+                        <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831116/Untitled_jf1bur.jpg?_s=public-apps" alt="logo">
+                    </div>
+                    <div class="client dva">
+                        <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831116/Untitled2_cta7ls.jpg?_s=public-apps" alt="logo">
+                    </div>
+                    <div class="client tri">
+                        <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831450/Untitled3_ral8js.jpg?_s=public-apps" alt="logo">
+                    </div>
+                    <div class="client cetiri">
+                        <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831116/Untitled4_zqtbzm.jpg?_s=public-apps" alt="logo">
+                    </div>
+                    <div class="client pet">
+                        <img src="https://res.cloudinary.com/dcszmhcaa/image/upload/fl_preserve_transparency/v1741831116/Untitled5_f9ocfd.jpg?_s=public-apps" alt="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-text">© 2022 All Rights Reserved by ib-themes.</div>
+            </div>
+        </div>
+
+    </div>   
+</body>
+</html>
